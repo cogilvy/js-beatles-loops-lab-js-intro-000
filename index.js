@@ -1,1 +1,27 @@
-// add solution here
+function theBeatlesPlay(musicians, instruments) {
+  const array1 = [];
+  for (let i = 0, l = musicians.length; i < l; i++) {
+    array1.push(`${musicians[i]} plays ${instruments[i]}`)
+  }
+  return array1;
+}
+
+
+function johnLennonFacts(facts) {
+  const lennonFacts = []
+  
+  let i = 0
+  while (i < facts.length) {
+    lennonFacts.push(`${facts[i]}!!!`)
+    i++
+  }
+  return lennonFacts
+}
+
+function iLoveTheBeatles(number) {
+  const loveArray = []
+  let i = 15
+  do {
+    loveArray.push("I love the Beatles!");
+  } while (number < i);
+}
